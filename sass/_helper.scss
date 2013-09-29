@@ -1,0 +1,92 @@
+// ==========================================================================
+// H5BP Helper classes
+// ==========================================================================
+
+//
+// Image replacement
+//
+
+.ir {
+    overflow: hidden;
+    border: 0;
+    background-color: transparent;
+
+    &:before {
+        display: block;
+        width: 0;
+        height: 150%;
+        content: "";
+    }
+}
+
+//
+// Hide from both screenreaders and browsers: h5bp.com/u
+//
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+//
+// Hide only visually, but have it available for screenreaders: h5bp.com/v
+//
+
+.visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+
+    //
+    // Extends the .visuallyhidden class to allow the element to be focusable
+    // when navigated to via the keyboard: h5bp.com/p
+    //
+    &.focusable:active,
+    &.focusable:focus {
+        position: static;
+        overflow: visible;
+        clip: auto;
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+}
+
+//
+// Hide visually and from screenreaders, but maintain layout
+//
+
+.invisible {
+    visibility: hidden;
+}
+
+//
+// Clearfix: contain floats
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    `contenteditable` attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that receive the `clearfix` class.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+//
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; // 1
+    display: table; // 2
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.strong {
+    font-weight: bold;
+}
