@@ -1,7 +1,7 @@
 weboilerplate
 =============
 
-Project Boilerplate (Grunt + Compass + Uglify + Modernizr + jQuery/Zepto + Normalize)
+Project Boilerplate (Grunt + Jasmine + Compass + Uglify + Modernizr + jQuery/Zepto + Normalize)
 
 ## How to install
 
@@ -9,8 +9,8 @@ Project Boilerplate (Grunt + Compass + Uglify + Modernizr + jQuery/Zepto + Norma
 
 ## How to run
 
-`grunt` : It will run compass + uglify
+`grunt` : It will run compass + uglify + jasmine
 
 ## How to watch/livereload
 
-`grunt watch` : It will run compass + uglify + reload your browser
+`grunt watch` : It will run compass + uglify + jasmine + reload your browser
