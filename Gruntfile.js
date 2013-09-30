@@ -4,7 +4,13 @@ module.exports = function (grunt) {
     grunt.initConfig({
         watch: {
             all: {
-                files: ['**/*.js', '**/*.html', '**/*.scss', '**/*.css'],
+                files: [
+                    'js/**/*.js',
+                    '**/*.html',
+                    'sass/**/*.scss',
+                    'css/**/*.css',
+                    'spec/*Spec.js'
+                ],
                 tasks: ['compass', 'jasmine', 'uglify'],
                 options: {
                     spawn: false,
