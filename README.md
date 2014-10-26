@@ -5,6 +5,7 @@ Project Boilerplate (Grunt + Jasmine + Compass + Uglify + Modernizr + jQuery/Zep
 
 ## How to install
 
+`bundle install`
 `npm install`
 
 ## How to run
