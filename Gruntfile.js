@@ -11,7 +11,7 @@ module.exports = function (grunt) {
                     'css/**/*.css',
                     'spec/*Spec.js'
                 ],
-                tasks: ['compass', 'jasmine', 'uglify'],
+                tasks: ['compass', 'jasmine'],
                 options: {
                     spawn: false,
                     livereload: true
